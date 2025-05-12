@@ -1,43 +1,77 @@
-plant-disease-detection
-Plant Disease Classification using CNN and Transfer Learning
+**PLANT-DISEASE-DETECTION**
 
-Objectives:
+Classify and detect plant leaf diseases using AI-powered deep learning
 
-1.Classify plant leaf images into specific disease categories
-2.Use real-world image dataset for training (Potato: Early Blight, Late Blight, Healthy)
-3.Build a lightweight CNN model using MobileNetV2
-4.Evaluate performance using Accuracy and F1 Score
-5.Predict disease from user-uploaded leaf images
-6.Enable easy testing and future deployment
+**Objectives:**
 
-Features:
-1.Deep learning classification with Keras/TensorFlow
-2.Pretrained MobileNetV2 base model
-3.Data augmentation for improved generalization
-4.Image upload + prediction in real-time
-5.Evaluation metrics: Accuracy, F1 score, classification report
-6.Simple, Colab-compatible workflow
+Classify plant leaf images into specific disease categories
 
-Programming Language & Tools:
-Language: Python
+Use real-world dataset for training (Potato: Early Blight, Late Blight, Healthy)
 
-Libraries: TensorFlow, Keras, NumPy, sklearn, Matplotlib, PIL
+Build a lightweight CNN model using MobileNetV2
 
-Dataset: Plant Disease Dataset - Akshit Gupta (Kaggle)
+Evaluate performance using Accuracy and F1 Score
 
-Evaluation:
+Predict disease from user-uploaded leaf images
+
+Enable easy testing and future deployment
+
+**Features:**
+
+Deep learning classification using Keras/TensorFlow
+
+Pretrained MobileNetV2 as the base model (Transfer Learning)
+
+Data augmentation for improved generalization
+
+Real-time image upload and prediction
+
+Evaluation metrics include Accuracy, F1 Score, and Classification Report
+
+Simple and Colab-compatible workflow
+
+**Programming language used**: Python
+
+**Libraries used:** TensorFlow, Keras, NumPy, sklearn, Matplotlib, PIL
+Dataset used: Plant Disease Dataset by Akshit Gupta (Kaggle)
+
+**Evaluation:**
+
 Accuracy: ~42%
 
 F1 Score (macro): ~32%
 
-Predicted correctly: Potato___Early_blight from uploaded leaf image
+Correctly predicted: Potato___Early_blight from uploaded image
 
-Works best on disease classes with balanced data
+Best performance on disease classes with balanced data
 
-Future Project Perspective:
-1.Advanced CNN: Use ResNet, EfficientNet for better performance
-2.Mobile App: Capture & classify disease using camera (Android/iOS)
-3.Offline Mode: Make predictions without internet using TFLite
-4.Dashboard: Visual analytics for farmers & agri-scientists
-5.Multicrop Extension: Support more crops (tomato, maize, etc.)
+**Future project perspective:**
+
+Improve model performance using advanced CNNs like ResNet, EfficientNet
+
+Build a mobile app to capture and classify diseases via camera (Android/iOS)
+
+Enable offline predictions using TensorFlow Lite
+
+Create a dashboard with visual analytics for farmers and agri-scientists
+
+Extend support to other crops (e.g., Tomato, Maize, etc.)
+
+**Link to presentation:**
+
+https://gamma.app/docs/BrainyML-txe1nh924z1hulz
+
+**Link to Demo Video :**
+
+https://drive.google.com/file/d/1P6ABrEsz5HSwI2iJMPWBd_794azIxIhm/view?usp=sharing
+
+Team: BrainyML
+Team leader: Ishwari Mohokar
+Team members:
+@ishwarii02
+
+@Shreeya1010
+
+@saniyamore31
+
 
